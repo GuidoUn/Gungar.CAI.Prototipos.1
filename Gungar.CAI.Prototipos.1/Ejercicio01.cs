@@ -30,8 +30,6 @@ namespace Gungar.CAI.Prototipos._1
             model.ApellidoIngresado = this.apellidoText.Text;
             model.NacimientoIngresado = this.nacimientoDate.Value;
 
-            ReiniciarForm();
-
             string mensaje = model.Validar();
             this.resultadoText.Text = mensaje;
         }
